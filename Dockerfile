@@ -1,4 +1,4 @@
-FROM docker.bluelight.limited:5000/bluelightltd/microkube-kubectl-image
+FROM docker.bluelight.limited:5000/bluelightltd/mkiii-kubectl-image
 
 
 RUN mkdir ~/.gnupg && echo "disable-ipv6" >> ~/.gnupg/dirmngr.conf && \
