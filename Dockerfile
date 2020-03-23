@@ -1,4 +1,4 @@
-FROM docker.bluelight.limited:5000/feingkai/mkiii-kompose-image
+FROM docker.bluelight.limited/feingkai/mkiii-kompose-image
 
 
 RUN mkdir ~/.gnupg && echo "disable-ipv6" >> ~/.gnupg/dirmngr.conf && \
